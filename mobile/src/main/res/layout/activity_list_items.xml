@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_list_items"
     android:layout_width="match_parent"
@@ -8,6 +9,54 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.sheldon.androidlabs.ListItemsActivity">
+    tools:context="com.example.sheldon.androidlabs.ListItemsActivity"
+    android:gravity="fill">
+
+    <GridLayout
+        android:gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:columnCount="2"
+        tools:rowCount="2"
+        android:alignmentMode="alignBounds">
+        android:column_Weight=”1”
+
+        <RadioButton
+            android:gravity="fill"
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gridLayout"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioButton" />
+
+        <CheckBox
+            android:gravity="fill"
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2" />
+
+        <Switch
+            android:gravity="fill"
+            android:text="Enable Something"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1" />
+
+        <ImageButton
+            android:gravity="fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/imageButton" />
+
+    </GridLayout>
 
 </RelativeLayout>
