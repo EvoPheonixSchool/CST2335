@@ -4,4 +4,10 @@
     <string name="ButtonText">I\'m a button</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="login">Login</string>
+    <string name="RadioButton">RadioButton</string>
+    <string name="CheckBox">CheckBox</string>
+    <string name="Enable">Enable Something</string>
+    <string name="LoginButton">Login</string>
+    <string name="email"></string>
+    <string name="Password">Password</string>
 </resources>

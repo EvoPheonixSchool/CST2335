@@ -27,7 +27,7 @@
 
         <RadioButton
             android:gravity="fill"
-            android:text="RadioButton"
+            android:text= "@string/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/gridLayout"
@@ -38,14 +38,14 @@
 
         <CheckBox
             android:gravity="fill"
-            android:text="CheckBox"
+            android:text="@string/CheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/checkBox2" />
 
         <Switch
             android:gravity="fill"
-            android:text="Enable Something"
+            android:text="@string/Enable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/switch1" />
