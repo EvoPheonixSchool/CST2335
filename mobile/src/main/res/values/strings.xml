@@ -10,4 +10,7 @@
     <string name="LoginButton">Login</string>
     <string name="email"></string>
     <string name="Password">Password</string>
+    <string name="dialogmessage">ARE YOU TALKING TO ME</string>
+    <string name="posmes">OK</string>
+    <string name="negmes">Cancel</string>
 </resources>

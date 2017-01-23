@@ -8,4 +8,7 @@
     <string name="CheckBox">CheckBox, eh</string>
     <string name="Enable">Enable Something, Please</string>
     <string name="LoginButton">Login, Please</string>
+    <string name="dialogmessage">Do you wish to return?</string>
+    <string name="posmes">OK, please</string>
+    <string name="negmes">Cancel, before it gets too cold</string>
 </resources>

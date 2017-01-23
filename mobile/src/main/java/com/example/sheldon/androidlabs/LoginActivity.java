@@ -1,6 +1,7 @@
 package com.example.sheldon.androidlabs;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -19,8 +20,8 @@ public class LoginActivity extends AppCompatActivity {
     protected final String ACTIVITY_NAME = "Login";
     private Button lbut;
     private EditText et;
-    private SharedPreferences sp = this.getPreferences(Context.MODE_PRIVATE);
-    private SharedPreferences.Editor edit = sp.edit();
+    private SharedPreferences sp ;
+    private SharedPreferences.Editor edit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
+        sp = this.getPreferences(Context.MODE_PRIVATE);
+        edit = sp.edit();
         lbut = (Button) findViewById(R.id.LoginButton);
         et = (EditText) findViewById(R.id.emailtext);
 
@@ -46,6 +50,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 edit.putString("defaultemail" , et.getText().toString());
                 edit.commit();
+                Intent intent = new Intent(LoginActivity.this, StartActivity.class);
+                startActivity(intent);
             }
         });
     }
