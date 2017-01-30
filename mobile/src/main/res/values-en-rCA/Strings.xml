@@ -11,4 +11,6 @@
     <string name="dialogmessage">Do you wish to return?</string>
     <string name="posmes">OK, please</string>
     <string name="negmes">Cancel, before it gets too cold</string>
+    <string name="StartChat">Start Chat, would you kindly</string>
+    <string name="send">Send.</string>
 </resources>

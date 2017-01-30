@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class StartActivity extends AppCompatActivity {
     protected final String ACTIVITY_NAME = "StartActivity";
     private Button but;
+    private Button butChat;
     private  CharSequence text;
     private Toast toast;
     private int duration;
@@ -22,13 +23,21 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         but = (Button) findViewById(R.id.imabutton);
-
+        butChat = (Button) findViewById(R.id.chatBut);
 
         but.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent,5);
+            }
+        });
+        butChat.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+                Intent i = new Intent(StartActivity.this,ChatWindow.class);
+                startActivityForResult(i,5);
             }
         });
     }

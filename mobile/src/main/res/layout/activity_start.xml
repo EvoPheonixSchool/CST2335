@@ -20,7 +20,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imabutton"
-        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="@string/StartChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imabutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/chatBut"
+        android:layout_alignEnd="@+id/imabutton" />
 </RelativeLayout>

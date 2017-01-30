@@ -18,9 +18,8 @@
     <TextView
         android:text="@string/login"
         android:layout_width="match_parent"
-        android:layout_height="27dp"
+        android:layout_height="wrap_content"
         android:id="@+id/textView3"
-        android:layout_weight="0.06"
         tools:layout_width="match_parent"
         android:textSize="36sp" />
 
