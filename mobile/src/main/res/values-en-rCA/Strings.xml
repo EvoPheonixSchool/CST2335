@@ -2,4 +2,15 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">Hello World!, Eh!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login, Please</string>
+    <string name="RadioButton">RadioButton Ya Hoser</string>
+    <string name="CheckBox">CheckBox, eh</string>
+    <string name="Enable">Enable Something, Please</string>
+    <string name="LoginButton">Login, Please</string>
+    <string name="dialogmessage">Do you wish to return?</string>
+    <string name="posmes">OK, please</string>
+    <string name="negmes">Cancel, before it gets too cold</string>
+    <string name="StartChat">Start Chat, would you kindly</string>
+    <string name="send">Send.</string>
 </resources>

@@ -2,4 +2,17 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="RadioButton">RadioButton</string>
+    <string name="CheckBox">CheckBox</string>
+    <string name="Enable">Enable Something</string>
+    <string name="LoginButton">Login</string>
+    <string name="email"></string>
+    <string name="Password">Password</string>
+    <string name="dialogmessage">Would you like to leave?</string>
+    <string name="posmes">OK</string>
+    <string name="negmes">Cancel</string>
+    <string name="StartChat">Start Chat</string>
+    <string name="send">Send!</string>
 </resources>
