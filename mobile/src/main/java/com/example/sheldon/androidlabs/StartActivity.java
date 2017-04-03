@@ -13,6 +13,7 @@ public class StartActivity extends AppCompatActivity {
     protected final String ACTIVITY_NAME = "StartActivity";
     private Button but;
     private Button butChat;
+    private Button toolbar;
     private  CharSequence text;
     private Toast toast;
     private int duration;
@@ -24,6 +25,7 @@ public class StartActivity extends AppCompatActivity {
 
         but = (Button) findViewById(R.id.imabutton);
         butChat = (Button) findViewById(R.id.chatBut);
+        toolbar = (Button) findViewById(R.id.toolbar);
 
         but.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +39,13 @@ public class StartActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i(ACTIVITY_NAME,"User clicked Start Chat");
                 Intent i = new Intent(StartActivity.this,ChatWindow.class);
+                startActivity(i);
+            }
+        });
+        toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(StartActivity.this,TestToolBar.class);
                 startActivity(i);
             }
         });

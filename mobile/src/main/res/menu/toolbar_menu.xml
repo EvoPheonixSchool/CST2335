@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bot"
+        android:title="Bot"
+        android:icon="@drawable/bot50"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/hand"
+        android:title="Hand"
+        android:icon="@drawable/handscissors50"
+        android:orderInCategory="102"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/ghast"
+        android:title="Ghast"
+        android:icon="@drawable/ghast50"
+        android:orderInCategory="103"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
+</menu>

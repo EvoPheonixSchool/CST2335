@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".StartActivity" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
@@ -23,8 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListItemsActivity"></activity>
-        <activity android:name=".ChatWindow"></activity>
+        <activity android:name=".ListItemsActivity" />
+        <activity android:name=".ChatWindow" />
+        <activity
+            android:name=".TestToolBar"
+            android:label="@string/title_activity_test_tool_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomDialog"
+            android:label="@string/title_activity_custom_dialog"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
